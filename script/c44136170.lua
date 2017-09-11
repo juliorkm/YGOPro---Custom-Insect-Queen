@@ -107,7 +107,7 @@ function c44136170.protcondition(e,tp,eg,ep,ev,re,r,rp)
 	return Duel.IsExistingMatchingCard(c44136170.queenfilter,tp,LOCATION_MZONE,0,1,nil,e,tp)
 end
 function c44136170.atlimit(e,c)
-	return not c:IsCode(91512835) and c:IsRace(RACE_INSECT) and c:IsFaceUp()
+	return not c:IsCode(91512835) and c:IsRace(RACE_INSECT) and c:IsFaceup()
 end
 function c44136170.splimit(e,c)
 	return c:GetRace()~=RACE_INSECT
